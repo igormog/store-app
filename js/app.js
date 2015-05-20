@@ -1,6 +1,8 @@
 var storeApp = angular.module('storeApp', []);
 
-.factory();
+.factory( {
+	var product = "data.json";
+});
 
 .controller('MainCtrl', '$scope', function ($scope) {
 	
